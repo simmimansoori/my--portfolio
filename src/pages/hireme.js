@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '@/components/Layout'
-import TransitionEffect from '@/components/transitionEffect'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 const hireme = () => {

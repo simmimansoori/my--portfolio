@@ -8,7 +8,7 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
-import TransitionEffect from '@/components/transitionEffect';
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 const AnimatedNumbers = ({value})=> {
@@ -35,7 +35,7 @@ const AnimatedNumbers = ({value})=> {
   },[springValue,value])
 
 
-  return <span ref={ref}></span>
+  return <span ref={ref}  ></span>
 }
 
 const about = () => {
@@ -61,7 +61,7 @@ const about = () => {
             new and innovative ways to bring my visions to life.
            </p>
            <p className='my-4 font-medium'>
-            I believe that design is about more than just making things look pretty – it's about solving problems and 
+            I believe that design is about more than just making things look pretty - it's about solving problems and 
             creating intuitive, enjoyable experiences for users. 
           </p>
           <p className='font-medium'>Whether I'm working on a website, mobile app, or 

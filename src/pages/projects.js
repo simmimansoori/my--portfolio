@@ -16,7 +16,7 @@ import tindog from '../../public/images/projects/tindog.png';
 import oldportfolio from '../../public/images/projects/oldportfolio.png';
 import gradient from '../../public/images/projects/gradient.png';
 import todolist  from '../../public/images/projects/todolist.png';
-import TransitionEffect from '@/components/transitionEffect';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image)
 

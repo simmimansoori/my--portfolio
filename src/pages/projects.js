@@ -6,7 +6,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/components/Icons';
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
 import cryptobucket from '../../public/images/projects/crypto-screener-cover-image.jpg';
+=======
+import project1 from '../../public/images/projects/togglebtn.png';
+>>>>>>> 3ac859b3a2a41522286af097da9c695b61da8620
 import togglebtn from '../../public/images/projects/togglebtn.png';
 import newton from '../../public/images/projects/newtons-cradle.png';
 import weatherapp from '../../public/images/projects/weather-app.png';
@@ -116,7 +120,11 @@ const projects = () => {
                     <div className='col-span-12'><FeatureProject 
                     
                         title="Crypto Screener Application"
+<<<<<<< HEAD
                         img={cryptobucket}
+=======
+                        img={project1}
+>>>>>>> 3ac859b3a2a41522286af097da9c695b61da8620
                         summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                         It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                         local currency."
@@ -147,8 +155,12 @@ const projects = () => {
                     <div className='col-span-12 sm:col-span-12'><FeatureProject 
                     
                         title="Crypto Screener Application"
+<<<<<<< HEAD
                         img={cryptobucket}
-                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+=======
+                        img={project1}
+>>>>>>> 3ac859b3a2a41522286af097da9c695b61da8620
+                         summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                         It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                         local currency."
                         link="/"

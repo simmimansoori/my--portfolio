@@ -35,11 +35,8 @@ const AnimatedNumbers = ({value})=> {
   },[springValue,value])
 
 
-<<<<<<< HEAD
   return <span ref={ref}></span>
-=======
-  return <span ref={ref}  ></span>
->>>>>>> 3ac859b3a2a41522286af097da9c695b61da8620
+
 }
 
 const about = () => {
@@ -64,12 +61,7 @@ const about = () => {
             and user-centered digital experiences. With 3 years of experience in the field. I am always looking for 
             new and innovative ways to bring my visions to life.
            </p>
-           <p className='my-4 font-medium'>
-<<<<<<< HEAD
-            I believe that design is about more than just making things look pretty – it's about solving problems and 
-=======
-            I believe that design is about more than just making things look pretty - it's about solving problems and 
->>>>>>> 3ac859b3a2a41522286af097da9c695b61da8620
+           <p className='my-4 font-medium'>  I believe that design is about more than just making things look pretty - it's about solving problems and 
             creating intuitive, enjoyable experiences for users. 
           </p>
           <p className='font-medium'>Whether I'm working on a website, mobile app, or 

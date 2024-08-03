@@ -52,21 +52,15 @@ const Experience = () => {
             <ul className='w-full flex items-center flex-col justify-between ml-4 xs:ml-2'>
                <Details  position="Software Engineer"  company="NTT Data "
                 time = "2021-Present"  address="Banglore, IN"
-                work = "Worked on a team responsible for developing new features for Google 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization" />
+                work = "Worked on a team responsible for developing new features for Google search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization" />
 
                 <Details  position="Coding Instructor"  company="Camp K-12"
                 time = "2022-Present"  address="Remote"
-                work = "Worked on a team responsible for developing new features for Google 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization" />
+                work = "Worked on a team responsible for developing new features for Google search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization" />
 
                 <Details  position="Freelancer"  company="remote"
                 time = "2022-Present"  address="Remote"
-                work = "Worked on a team responsible for developing new features for Google 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization" />
+                work = "Worked on a team responsible for developing new features for Google search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization" />
 
             </ul>
         

@@ -2,7 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '@/components/Layout'
+<<<<<<< HEAD
 import TransitionEffect from '@/components/transitionEffect'
+=======
+import TransitionEffect from '@/components/TransitionEffect'
+>>>>>>> 3ac859b3a2a41522286af097da9c695b61da8620
 
 
 const hireme = () => {

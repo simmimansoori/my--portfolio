@@ -83,7 +83,7 @@ const about = () => {
 
           <div className='flex flex-col items-end jusrify:center xl:items-center'>
             <span className='font-bold text-7xl inline-block md:text-6xl sm:text-5xl xs:text-4xl ' >
-              <AnimatedNumbers value={20} />+
+              <AnimatedNumbers value={10} />+
              </span>
             <h2 className='text-xl  font-bold  text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Satiesfied Clients</h2>
           </div>
@@ -91,7 +91,7 @@ const about = () => {
           
           <div  className='flex flex-col items-end jusrify:center xl:items-center'>
             <span className='font-bold text-7xl inline-block md:text-6xl sm:text-5xl xs:text-4xl' >
-            <AnimatedNumbers value={30} />+
+            <AnimatedNumbers value={20} />+
             </span>
             <h2 className='text-xl  font-bold  text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects Copleted</h2>
           </div>

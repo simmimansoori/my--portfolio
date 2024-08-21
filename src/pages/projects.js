@@ -177,21 +177,7 @@ const projects = () => {
                     
                     
 
-                    <div className='col-span-12 sm:col-span-12'><FeatureProject 
-                    
-                        title="Crypto Screener Application"
-                        img={cryptobucket}
-
-
-                         summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency."
-                        link="/"
-                        github="https://github.com/simmimansoori/Newton-s-Cradle"
-                        type="Featured Project"
-
-                    />
-                    </div>
+                  
                     
                     <div className='col-span-6 sm:col-span-12'><Project 
                     title="Check Weather App"

@@ -70,13 +70,21 @@ const handleClick = () => {
     <div className="w-full flex items-center justify-between lg:hidden">
       <nav className="flex justify-center items-center flex-wrap ">
 
+
       {/* <button 
+=======
+      <button 
+>>>>>>> f39b29479b9e36fbc818f79f75dcbda58419e726
       onClick={() => setMode(mode === "light" ? "dark": " light")} 
         className=" mr-3 flex items-center justify-center rounded-full p-1 ">
         {
           mode === "dark" ? <SunIcon className={'fill-dark'}/> : <MoonIcon className={'fill-dark'}/>
         }
+
       </button> */}
+
+      {/* </button> */}
+
       
       <motion.a
         href="https://x.com/"

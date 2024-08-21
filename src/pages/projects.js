@@ -16,7 +16,9 @@ import tindog from '../../public/images/projects/tindog.png';
 import oldportfolio from '../../public/images/projects/oldportfolio.png';
 import gradient from '../../public/images/projects/gradient.png';
 import todolist  from '../../public/images/projects/todolist.png';
+
 import bloomsite from '../../public/images/projects/bloomstore.png';
+
 import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image)
@@ -122,9 +124,10 @@ const projects = () => {
                         summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                         It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                         local currency."
+
                         link="https://cryptobucket-1s8h.vercel.app/"
                         github="https://github.com/simmimansoori/cryptobucket"
-                        type="Featured Project"
+                       type="Featured Project"
 
                     />
                     </div>
@@ -137,6 +140,7 @@ const projects = () => {
                     github="https://github.com/simmimansoori/Toggle-button"
                     type="Featured Project"
                      /></div>
+
                      <div className='col-span-6 sm:col-span-12'><Project 
                     title="Check Weather App"
                     img={weatherapp}
@@ -152,12 +156,14 @@ const projects = () => {
                         img={bloomsite}
                         summary="Developed responsive modern e-commerce website utilizing cutting-edge technologies including HTML5, CSS3 and JavaScript. 
                          Optimized website performance by using Vite which is fast build."
-                        link="/"
+                        link="https://bloom-store.netlify.app/"
                         github="https://github.com/simmimansoori/Bloom-Store"
                         type="Featured Project"
 
                     />
                     </div>
+
+
 
                     <div className='col-span-6 sm:col-span-12'><Project 
                     title="Newton's Cradle"
@@ -167,8 +173,34 @@ const projects = () => {
                     type="Featured Project"
                     /></div> 
 
+
                     
                     
+
+                    <div className='col-span-12 sm:col-span-12'><FeatureProject 
+                    
+                        title="Crypto Screener Application"
+                        img={cryptobucket}
+
+
+                         summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.
+                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                        local currency."
+                        link="/"
+                        github="https://github.com/simmimansoori/Newton-s-Cradle"
+                        type="Featured Project"
+
+                    />
+                    </div>
+                    
+                    <div className='col-span-6 sm:col-span-12'><Project 
+                    title="Check Weather App"
+                    img={weatherapp}
+                    link="https://simmimansoori.github.io/Check_weather/"
+                    github="https://github.com/simmimansoori/Check_weather"
+                    type="Featured Project"
+                    /></div> 
+
 
                     <div className='col-span-6 sm:col-span-12'><Project 
                     title="Simple Live Clock"

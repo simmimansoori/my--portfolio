@@ -153,7 +153,7 @@ const projects = () => {
                         summary="Developed responsive modern e-commerce website utilizing cutting-edge technologies including HTML5, CSS3 and JavaScript. 
                          Optimized website performance by using Vite which is fast build."
                         link="/"
-                        github="https://github.com/simmimansoori/Newton-s-Cradle"
+                        github="https://github.com/simmimansoori/Bloom-Store"
                         type="Featured Project"
 
                     />
